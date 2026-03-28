@@ -614,6 +614,9 @@ select {
 .book__selected--title--top {
   margin-left: 10px;
   margin-bottom: 0;
+  position: relative;
+  left:-35%;
+  top:-33px;
 }
 
 .book__summary {
