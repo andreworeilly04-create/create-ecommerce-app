@@ -85,6 +85,10 @@ button:active {
   border-radius: 4px;
   border: none;
 }
+.btn:hover{
+  text-decoration: none;
+}
+
 
 .purple {
   color: #7342d6;
@@ -657,6 +661,7 @@ select {
   padding: 8px 16px;
   color: white;
   display: flex;
+  position: relative;
 }
 
 .cart__item {
@@ -680,13 +685,23 @@ select {
   align-items: center;
 }
 
+.cart__total--price{
+  position: absolute;
+  top:229px;
+  left:84.6%;
+}
+
 .cart__total {
   width: 100%;
-  max-width: 100px;
+
   display: flex;
   align-items: center;
   justify-content: flex-end;
   font-size: 18px;
+  color:white;
+  position: absolute;
+  left:-12%;
+  top:171px;
 }
 
 .cart__input {
