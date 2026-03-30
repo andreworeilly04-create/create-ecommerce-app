@@ -686,9 +686,9 @@ select {
 }
 
 .cart__total--price{
-  position: absolute;
-  top:229px;
-  left:84.6%;
+  position: relative;
+  top:10px;
+  left:27%;
 }
 
 .cart__total {
@@ -818,6 +818,7 @@ select {
   .book__selected--description {
     width: 100%;
   }
+  
 }
 
 
@@ -845,4 +846,34 @@ select {
   .cart__book--info {
     padding-left: 0;
   }
+  .cart__book{
+    font-size:18px;
+  }
+  .cart__quantity{
+    font-size:18px;
+    position: relative;
+    left:-40px;
+  }
+  .cart__total{
+    font-size:18px;
+    position: relative;
+    left:-27px;
+    top:-29px;
+  }
+  .footer__copyright{
+    font-size:12px;
+  }
+  .book__selected--title--top{
+   position: relative;
+   left:-71px;    
+  }
+ .books__header--title{
+  font-size:15px;
+ }
+
+ .header__description{
+  font-size:30px;
+ }
+
+ 
 }
